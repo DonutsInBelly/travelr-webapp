@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<html>
+    <body>
+        <h1>Hello, <%= user.local.username %>!</h1>
+        <form action="/newTrip" method="post">
+            <h1>new Trip</h1>
+            <p>
+                <label for="TripName" class="tripName">Trip Name: </label>
+                <input id="TripName" required="required" name="tripName" type="text"/>
+            </p>
+            <p>
+                <label for="UserName" class="owner">UserName: </label>
+                <input id="username" required="required" name="owner" type="text"/>
+            </p>
+            <p>
+                <label for="TripPicture" class="trippic">URL for Trip Picture: </label>
+                <input id="TripPicture" name="picURL" type="url"/>
+            </p>
+            <p>
+                <label for="Origin" class="origin">Airport of Origin: (ex. JFK for John F. Kennedy Airport) </label>
+                <input id="Origin" required="required" name="origin" type="text"/>
+            </p>
+            <p>
+                <label for="Departure" class="departureTime">When are you leaving? </label>
+                <input id="Departure" name="arrival" type="date"/>
+            </p>
+            <p>
+                <label for="Return" class="returnTime">When are you returning? </label>
+                <input id="Return" name="departure" type="date"/>
+            </p>
+            <p>
+                <label for="Budget" class="budget">What's your Budget? </label>
+                <input id="Budget" required="required" name="budget" type="number"/>
+            </p>
+            <p>
+                <input type="submit" value="Submit"/>
+            </p>
+        </form>
+        <a href="/myTrips">Go to My Trips</a>
+    </body>
+</html>

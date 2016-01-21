@@ -1,0 +1,4 @@
+{ "_id" : { "$oid" : "566200e0b51a6a070dc5dd53" }, "local" : { "password" : "$2a$08$OzwI6lES6ITm95H7j.FX7e2PrPLbnZJG6I3lT4T4l48oQjyP8XvEW", "username" : "carlin" }, "__v" : 0 }
+{ "_id" : { "$oid" : "56632448a44f823820bf9951" }, "local" : { "password" : "$2a$08$IvLItPhzH3VYgYNzbM6rCuYZAEaUsbmWKnlwxx7sQEcthipUtVLSG", "username" : "bob" }, "__v" : 0 }
+{ "_id" : { "$oid" : "5664416acefa0e6f0e069e16" }, "local" : { "password" : "$2a$08$7q1FzNYYiCR63cqDI9e.k.ui8ikIeGWKwOu857zDHOcvQUUxDVKZy", "username" : "lol" }, "__v" : 0 }
+{ "_id" : { "$oid" : "566442ed51a14ffb0f67c565" }, "local" : { "password" : "$2a$08$PyLFXKj2WZ.UnFN8mXGMWeZDT3.IXHYdhQ9ORWLIkDpWPRtoSmadq", "username" : "joel" }, "__v" : 0 }

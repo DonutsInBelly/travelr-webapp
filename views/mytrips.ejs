@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>My Trips</title>
+        <link href="css/tripcards.css" type="text/css" rel="stylesheet"/>
+    </head>
+    <body>
+        <h1>Hi <%= user.local.username %>!</h1>
+        <div class="container">
+            <h1>Your Trips: <% trip.forEach(function(aTrip){ %></h1>
+            <ul style="list-style-type:none">
+            <li>        
+                <div class="card transition">
+                    <h2 class="transition"><%= aTrip.tripName %></br>Author: <%=aTrip.owner%></h2>
+                    <p>Staying from <%= aTrip.arrival %> to <%= aTrip.departure %></br>
+                    Budget: $<%= aTrip.budget %></p>
+
+                <!--<div class="cta-container transition"><form action="/theTrip"<input type="submit" value="Details" class="cta"></div>-->
+                <div class="card_circle transition"></div>
+                </div>
+            </li>
+        </ul>
+            <% }); %>
+        </div>        
+        <a href="/newTrip">Make a new Trip</a>
+    </body>
+</html>
