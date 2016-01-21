@@ -1,7 +1,7 @@
 # Travelr
-# Carlin Au and Sree Vuthaluru
+## Carlin Au and Sree Vuthaluru
   
-# Made with:
+### Made with:
 
 * NodeJS
 * ExpressJS
@@ -9,6 +9,6 @@
 * MongooseJS
 * MongoDB
 
-# Roles:
+### Roles:
 * Carlin (Front-end and Back-end)
 * Sree Vuthaluru (Front-end)
