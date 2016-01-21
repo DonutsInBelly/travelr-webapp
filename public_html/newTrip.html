@@ -1,0 +1,136 @@
+<html>
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div4 {
+   position:fixed;
+   left:0px;
+   bottom:0px;
+   height:30px;
+   width:100%;
+   background:#DCDCDC;
+   text-align: right;
+   font-size: 16px;
+   font-family: Georgia;
+   font-strength: bold;
+}
+body {	
+    background-image: url("./confectionary.png");
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+li2{
+	float:right; 
+	display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    font-weight: bold;
+
+	font-size: 24px;
+  background: -webkit-linear-gradient(white, yellow);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+	}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+.intro { 
+ font-family: "Georgia";
+        font-size: 18px;
+        margin-top: .5em; color: #666;
+color: black; 
+}
+
+h1{
+	margin: 1em 0 0.75em;
+	padding: 0 0 0 0;
+	color: black;
+	font-weight: normal;
+	position: relative;
+	text-shadow: 0 2px 0 rgba(255,255,255,0.5);
+	font-size: 36px;
+	line-height: 36px;
+	font-family:Georgia,serif;
+	text-decoration: underline;}
+	
+h2{
+	;
+	padding: 0 0 0 0;
+	padding-left: 2em;
+	color: black;
+	font-weight: normal;
+	font-family:Georgia,serif;
+	font-style: italic;
+	position: relative;
+	text-shadow: 0 2px 0 rgba(255,255,255,0.5);
+	font-size: 30px;
+	line-height: 30px;}}
+	
+
+	 
+</style>
+</head>
+<ul>
+  <li><a class="active" href="/login">Logout</a></li>
+  <li><a href="/contactus">Contact</a></li>
+  <li><a href="/about">About</a></li>
+  <li2 ><a>travelr</a></li2>
+</ul>
+<div id="container_demo" >
+	
+	<a class="hiddenanchor" id="toregister"></a>
+	<a class="hiddenanchor" id="tologin"></a>
+	
+
+		<div id="register" class="animate form">
+			<form  action="mysuperscript.php" autocomplete="on"> 
+				<h1> Create your new trip today! </h1> 
+				<p> 
+					<label for="destination" class="dest" data-icon="u">Your Destination</label>
+					<input id="destination" name="destination" required="required" type="text" placeholder="Paris" />
+				</p>
+				<p> 
+					<label for="group" class="group" data-icon="e" > Your Group Members</label>
+					<input id="group" name="group" required="required" type="email" placeholder="johnsmith@mail.com; taylorlee@mail.com"/> 
+				</p>
+				<p> 
+					<label for="budget" class="budg" data-icon="p">Your Total Budget </label>
+					<input id="budget" name="budget" required="required" type="password" placeholder="eg.$2000"/>
+				</p>
+				<p> 
+					<label for="rank_dest" class="rank_dest" data-icon="r">Please provide 5 destinations you would like to travel to, with the highest ranked being the first one </label>
+					<input id="rank" name="rank" required="required" type="password" placeholder="eg. 1. Eiffel Tower 2. Museum"/>
+				</p>
+				<p class="ssubmit"> 
+					<input type="submit" value="Submit"/> 
+				</p>
+				
+			</form>
+		</div>
+		
+	</div>
+</div> 
+<div4 class="footer">
+By: Sreekirthi Vuthaluru & Carlin Au
+</div4> 
+</html>

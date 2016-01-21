@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+<meta charset=utf-8 />
+  
+   .imgContainer{
+    float:left;
+}
+.image { 
+   position: relative; 
+   width: 100%; /* for IE 6 */
+}
+
+h2 { 
+   position: absolute; 
+   top: 200px; 
+   left: 0; 
+   width: 100%; 
+}
+h2 span { 
+   color: white; 
+   font: bold 24px/45px Helvetica, Sans-Serif; 
+   letter-spacing: -1px;  
+   background: rgb(0, 0, 0); /* fallback color */
+   background: rgba(0, 0, 0, 0.7);
+   padding: 10px; 
+}
+h2 span.spacer {
+   padding:0 5px;
+}
+
+body {
+
+    background-image: url("confectionary.png");
+
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 15%;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 0 8px 16px;
+    text-decoration: none;
+}
+
+li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">About</a></li>
+  <li><a href="#about">Add New Trip</a></li>
+</ul>
+
+<div style="margin-left:25%;padding:1px 16px;">
+  <h1>Hello, Mark</h1>
+ 
+</div>
+
+<div class="image" style="margin-left:25%" >
+
+      <img src="pic1.jpg" alt="" width="400" height="400" />
+      
+     <h2><span>Paris: 4 Members<span class='spacer'></span><br /><span class='spacer'></span>2 Days, Budget $3000</span></h2>
+	 </div>
+	 <div class="image" style="margin-left:25%">
+	 <img src="pic2.jpg" alt="" width="400" height="400" />
+      
+     <h2><span>Paris: 4 Members<span class='spacer'></span><br /><span class='spacer'></span>2 Days, Budget $3000</span></h2>
+</div>
+<div class="image" style="margin-left:25%" >
+
+      <img src="pic3.jpg" alt="" width="400" height="400" />
+      
+     <h2><span>Paris: 4 Members<span class='spacer'></span><br /><span class='spacer'></span>2 Days, Budget $3000</span></h2>
+	 </div>
+
+
+</body>
+</html>

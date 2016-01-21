@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Trips</title>
+        <link href="css/tripcards.css" type="text/css" rel="stylesheet"/>
+    </head>
+    <body>
+        <h1>Choose a Trip!</h1>
+        <div>
+            <form action="/myTrips" method="get" type="radio">
+                
+                <input type="submit" value="Submit">
+            <% package.forEach(function(pack){ %>
+                <input type="hidden" name="_id" value="<%= pack._id %>">
+            <div class="tile">                
+                <input type="radio" name="package"><h1>A <%= pack['Hotel Nights Stay'] %> Night Stay at </h1>
+                <h3>the <%= pack['Hotel Property'] %> for $<%= pack['JetBlue Package Price/Person'] %> per Person!</h3>
+            </div>
+            <% }); %>
+            </form>
+        </div>
+    </body>
+</html>
